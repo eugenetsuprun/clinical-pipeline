@@ -1,0 +1,68 @@
+[Your Letterhead]
+
+[Date]
+
+[Insurance Company Name]
+[Insurance Company Address]
+
+RE: Prior Authorization Request for Cochlear Implantation
+
+Patient Name:  Jane R. Miller
+Patient Date of Birth:  03/15/1958
+Patient ID:  JM987654321
+Insurance Policy Number: ABC-123-DEF-456
+
+Dear Authorization Review Committee,
+
+I am writing to request prior authorization for a cochlear implant for my patient, Ms. Jane R. Miller. Ms. Miller
+is a 65-year-old woman with a long-standing history of bilateral sensorineural hearing loss, documented as ICD-10
+code H90.3 (Sensorineural hearing loss, bilateral). She has experienced progressive deterioration in her hearing
+over the past several years, despite consistent and appropriate use of optimally fitted hearing aids.
+
+Ms. Miller's most recent audiogram (attached) reveals profound hearing loss in both ears, with speech discrimination
+scores falling below acceptable thresholds for successful hearing aid use. Her pure tone average (PTA) is 85 dB HL
+in the right ear and 90 dB HL in the left ear. She struggles significantly in daily communication, particularly
+in noisy environments, leading to social isolation and a diminished quality of life. Her hearing loss is impacting
+her ability to participate in social activities, work meetings, and even simple conversations, causing significant
+emotional distress, which further supports the secondary diagnosis of ICD-10 F41.1 (Generalized anxiety disorder).
+
+Given Ms. Miller's profound bilateral sensorineural hearing loss and the limited benefit she receives from hearing
+aids, I believe she is an excellent candidate for cochlear implantation.  We are specifically requesting authorization
+for the surgical placement of a cochlear implant, multi-channel in the right ear, which is identified by CPT code 69930
+(Cochlear device implantation, with or without mastoidectomy). As a board-certified otolaryngologist specializing
+in the management of hearing loss and balance disorders, and based on my examination and review of her comprehensive
+audiometric and medical records, Ms. Miller meets the clinical criteria for cochlear implantation as defined by both
+the FDA and her insurance policy.
+
+It is my professional opinion that a cochlear implant is the most appropriate and medically necessary treatment option
+to address Ms. Miller's severe hearing impairment. This intervention is expected to significantly improve her speech
+perception abilities, particularly in noisy environments, leading to a substantial improvement in her communication
+skills, social interaction, and overall well-being. We will also perform post operative auditory rehabilitation, CPT
+code 92626.
+
+We are also requesting coverage for the external sound processor associated with the implanted device. It is important
+that Ms. Miller is able to have follow-up programming and adjustments of the speech processor which is designated 
+with CPT code 92602 (Therapeutic service(s) for the use of a cochlear implant or auditory osseointegrated device,
+per encounter, 15 minutes or more; programming of speech processor, subsequent reprogramming).
+Failure to authorize this procedure would deny Ms. Miller the opportunity to achieve meaningful auditory rehabilitation
+and significantly impact her quality of life.
+
+Thank you for your prompt consideration of this request. Please do not hesitate to contact me if you
+require any further information.
+
+Sincerely,
+
+Dr. Alan T. Nelson, MD, FACS
+Otolaryngology-Head and Neck Surgery
+Oto-Med Clinic
+123 Main St
+Anytown, USA 12345
+Phone: (555) 123-4567
+Fax: (555) 987-6543
+NPI: 1234567890
+
+Attachments:
+
+Audiogram Report
+Clinical Notes
+Patient Medical History

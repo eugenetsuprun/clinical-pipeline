@@ -1,0 +1,38 @@
+(Example:  Bright Health Clinic)
+
+Patient Name:  Eleanor Rigby
+Patient ID:  9786543
+Statement Date: December 22, 2024
+Account Number:  543219876
+
+Date of Service | Service Description | Procedure Code | Charges
+------- | -------- | -------- | --------
+11/15/2024 | Office Visit, Level 3 (Established Patient) | 99213 | $150.00
+11/15/2024 | Electrocardiogram (ECG) | 93000 | $75.00
+11/15/2024 | Therapeutic Injection, intramuscular | 96372 | $50.00
+12/05/2024 |  Office Visit, Level 2 (Established Patient) | 99212 | $100.00
+12/05/2024 |  Urine Dip Test | 81002 | $25.00
+
+Total Charges: $300.00
+
+Insurance Payments: $180.00
+Patient Responsibility: $120.00
+
+Amount Due: $120.00
+
+Payment Due Date: January 21, 2025
+
+Please remit payment to:
+
+Bright Health Clinic
+123 Main Street
+Anytown, CA 54321
+
+Payment Options:
+
+Online: Visit our website at www.brighthealthclinic.com to pay securely online.
+Mail: Send a check or money order payable to "Bright Health Clinic" to the address above.
+Phone: Call us at 555-123-4567 to make a payment by phone.
+Questions?
+
+If you have any questions about this statement, please contact our billing department at 555-987-6543.
