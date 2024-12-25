@@ -37,6 +37,9 @@ def is_relevant(clinical_text_chunk: str) -> bool:
             "DIAGNOSTIC_PROCEDURE",
         ]:
             if entity["score"] > 0.4:  # somewhat arbitrary
+                print(
+                    f"Relevant {entity["entity_group"]} found: {entity['word']} {entity['score']: .2f}"
+                )
                 return True
     return False
 
