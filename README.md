@@ -1,30 +1,37 @@
 # Clinical Text Processing for ICD-10 and CPT Code Extraction
 
-This project processes clinical text documents to extract relevant ICD-10 and CPT codes using a combination of Named Entity Recognition (NER) and the OpenAI API.
+This is an example of how to not send everything to AI. Even though AI is so great, running up a huge bill is not. So, we use a simple NER model to filter out the text that is not relevant before sending it to the AI.
 
 ## Overview
 
 The process involves the following steps:
 
-1.  **Chunking:** The input document is split into smaller, overlapping chunks to manage long text effectively.
-2.  **Relevance Filtering:** Each chunk is analyzed using a pre-trained NER model to identify relevant clinical entities (e.g., diseases, procedures). Chunks without significant entities are skipped.
-3.  **Code Extraction:** Relevant chunks are passed to the OpenAI API (specifically, `gpt-4o-mini`) to extract ICD-10 and CPT codes based on the identified clinical entities.
-4.  **Aggregation:** The extracted codes from all relevant chunks are combined and deduplicated to produce a final list of codes.
+1.  **Chop it up:** We split the input text into is split into smaller, overlapping chunks to manage long text effectively.
+2.  **Find the good stuff:** We analyze each chunk using a pre-trained NER model to identify relevant clinical entities (e.g., diseases, procedures). If we don't find any entities, we discard the chunk.
+3.  **Ask AI:** We send the relevant chunks to the OpenAI API to extract ICD-10 and CPT codes based on the identified clinical entities.
 
-## Requirements
+## Setup
 
-- Python 3.8 or higher
-- `transformers` library
-- `openai` library
-- `dotenv` library
-- An OpenAI API key (stored in a `.env` file)
-- A pre-trained NER model for clinical text (specifically, `Clinical-AI-Apollo/Medical-NER` from Hugging Face)
+Set your `OPENAI_API_KEY` in the `.env` file in the `clinical-pipeline` dir.
 
-## Installation
+Poetry is a dependency management tool for Python. If you don't have it installed, follow the instructions on the [official Poetry website](https://python-poetry.org/docs/#installation).
 
-1.  Clone the repository:
+Then, run `poetry install`.
 
-```bash
-git clone <repository_url>
-cd <repository_directory>
+Enter the poetry-managed virtual environment with `poetry shell`.
+
+## Usage
+
+# Sample Input and Output
+
+```
+$ cd clinical-pipeline
+$ python process.py sample_docs/prior_auth_letter.txt
+
+Relevant THERAPEUTIC_PROCEDURE found: Cochlear Implantation  0.73
+Relevant DIAGNOSTIC_PROCEDURE found: le thresholds  0.54
+Relevant THERAPEUTIC_PROCEDURE found: device implantation  0.51
+Relevant THERAPEUTIC_PROCEDURE found: sound processor  0.47
+ICD-10 Codes: ['F41.1', 'H90.3']
+CPT Codes: ['69930', '92602', '92626']
 ```
