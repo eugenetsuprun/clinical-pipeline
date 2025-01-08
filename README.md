@@ -2,6 +2,8 @@
 
 This is an example of how to not send everything to AI. Even though AI is so great, running up a huge bill is not. So, we use a simple NER model to filter out the text that is not relevant before sending it to the AI.
 
+This repo accompanies my [LinkedIn post](https://www.linkedin.com/pulse/one-weird-trick-save-llm-costs-example-healthcare-data-eugene-tsuprun-9ntxe/?trackingId=maSQTd9TNccLyBzO4tUS4w%3D%3D).
+
 ## Overview
 
 The process involves the following steps:
